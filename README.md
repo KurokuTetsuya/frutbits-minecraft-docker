@@ -23,8 +23,5 @@ Use `docker ps` to see the container name (number & folder). Just see the middle
 - `docker container attach <folder name>_db_<instance_number>` for mysql console
 
 ## Database Access
-Currently, MySQL can be accessed from external and internal (localhost). If you're configuring MySQL for minecraft plugins, use `db` as the host.
-For example:
-<a href="https://discord.gg/fD5MHy9">
-    <img src="https://cdn.discordapp.com/attachments/737680131727949864/814148519353909248/ex.png" alt="Example">
-</a>
+Currently, MySQL can be accessed from external and internal (localhost). If you're configuring MySQL for minecraft plugins, use `db` as the host. For example:
+- ![](https://cdn.discordapp.com/attachments/737680131727949864/814148519353909248/ex.png)
