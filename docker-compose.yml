@@ -16,6 +16,8 @@ services:
       - "3306:3306"
     volumes: 
       - "./mysql:/var/lib/mysql"
+    tty: true
+    stdin_open: true
   server:
     depends_on:
         - db
@@ -33,4 +35,6 @@ services:
     restart: unless-stopped
     volumes:
       - "./server:/app/papermc"
+    tty: true
+    stdin_open: true
 version: "3"
