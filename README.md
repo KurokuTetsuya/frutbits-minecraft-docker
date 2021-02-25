@@ -18,7 +18,7 @@
 
 ## Console Access
 Follow this to access minecraft console (make yourself op or run console command) or mysql console. Replace `<instance_number>` with the instance number & replace `<folder name>` with the folder name.
-Use `docker ps` to see the container name (number & folder). Just see the middle, it's should be `server` and `db`
+Use `docker ps` to see the container name (number & folder). Just see the middle, it's should be `server` and `db`. To deattach the console (exit), use `CTRL + P + CTRL + Q`
 - `docker container attach <folder name>_server_<instance_number>` for minecraft console
 - `docker container attach <folder name>_db_<instance_number>` for mysql console
 
