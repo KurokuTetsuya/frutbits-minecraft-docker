@@ -2,14 +2,15 @@
     <img src="https://minecraft-mp.com/leaderboard-274015-6.png" border="0">
 </a>
 
-# Frutbits PaperMC Docker
-> This Dockerfile is used for `mc.frutbits.xyz` server. This Dockerfile using PaperMC and supports MySQL.
+# Frutbits Minecraft Docker
+> This Dockerfile is used for `mc.frutbits.xyz` server. This Dockerfile using Spigot and supports MySQL.
 
 <a href="https://discord.gg/fD5MHy9">
     <img src="https://discordapp.com/api/guilds/715165490246582313/embed.png" alt="Join Discord">
 </a>
 
 ## Usage
+If you're running this for first time, it'll build a spigot jar for you.
 1. Clone this repository
 2. Rename `.mc.env_example` to `.mv.env`
 3. Rename `.mysql.env_example` to `.mysql.env`
