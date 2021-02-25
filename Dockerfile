@@ -1,12 +1,13 @@
 FROM openjdk:12-alpine
 
-LABEL name "PaperMC"
+LABEL name "Spigot"
 LABEL maintainer "Zen"
 
+ENV SPIGOT_VERSION=$SPIGOT_VERSION
+
 WORKDIR /app
-RUN apk add --no-cache wget jq && mkdir /papermc
 
-ADD papermc.sh .
+ADD build.sh .
+RUN apk add --no-cache wget git && mkdir /spigot
 
-# Start Download
-CMD ["sh", "./papermc.sh"]
+CMD ["sh", "build.sh"]

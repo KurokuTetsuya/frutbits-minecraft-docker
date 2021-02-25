@@ -34,7 +34,7 @@ services:
       - "8192:8192"
     restart: unless-stopped
     volumes:
-      - "./server:/app/papermc"
+      - "./server:/app/spigot"
     tty: true
     stdin_open: true
 version: "3"
